@@ -1,0 +1,253 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      #chat{
+        position: fixed;
+        width: 250px;
+        height: 40px;
+        bottom: 0;
+        right: 20px;
+        background: magenta;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+
+        font-family: 'Kaushan Script', cursive;
+        font-size: 20px;
+        border-radius: 20px 20px 0 0;
+        cursor: pointer;
+
+      } /* z-index: 1; manipulamos las cajas en sus ejes de profundidad*/
+      header {
+        position: relative;
+        margin: 20px auto;
+        width: 1000px;
+        height: 120px;
+        
+      }/* background: #444; */
+
+      #logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 200px;
+        height: 60px;
+        
+        font-family: 'Kaushan Script', cursive;
+        font-size: 50px;
+        text-align: center;
+        line-height: 50px;
+      }
+
+      .redes {
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        background: rgb(235, 231, 231);
+        border-radius: 100%;
+        
+        text-align: center;
+        line-height: 42px;
+        color: rebeccapurple;
+      }
+
+      #icono1 {
+        top: 42px;
+        right: 120px;
+        background: blue;
+      }
+      #icono2 {
+        top: 42px;
+        right: 71px;
+        background: green;
+      }
+      #icono3 {
+        top: 42px;
+        right: 19px;
+        background: red;
+      }
+      /* background: rgba(red, green, blue, alpha); se elimina el backgraund de botones */
+      .botones {
+        float: left;
+        width: 196px;
+        margin: 0px 2px;
+        height: 48px;
+       
+        background: rgba(100, 0, 225, 1);
+
+        font-family: 'Kaushan Script', cursive;
+        color: white;
+        text-align: center;
+        line-height: 48px;
+      }
+
+      nav {
+        position: relative;
+        margin: auto;
+        width: 1000px;
+        height: 48px;
+        background: #aaa;
+      }
+      a .botones:hover{
+          background: rgba(100, 0, 255, 4);
+      }
+      a .botones:active{
+          background: rgba(255, 0, 100, 1);
+      }
+      #top {
+        position: relative;
+        margin: 20px auto;
+        width: 1000px;
+        height: 192px;
+
+        text-align: center;
+      }
+      #top ul li img{
+        border-radius: 100%;
+        height: 100px; 
+      }/* height: 100px; //aunque hayan imagenes mas grandes, se ajustan a la medida */
+
+      #top ul li h1{
+        font-family: 'Kaushan Script', cursive;       
+      }
+      #top ul li p{
+        font-size: 14px;      
+        margin: 10px;
+      }
+      #top ul li {
+        float: left;
+        width: 323px;
+        height: 192px;
+        
+        margin-right: 10px;
+      }      
+      /* <!-- //background: rgb(231, 222, 222); //se quita el backgraund del top. --> */
+
+      #top ul {
+        width: 1010px;
+        height: 192px;
+      }
+      section {
+        position: relative;
+        margin: auto;
+        width: 1000px;
+        height: 453px;
+        
+      } /*background: #aaa; */
+
+     
+      article {
+        position: absolute;
+        left: 200px;
+        top: 0;
+        width: 600px;
+        height: 453px;
+       
+      }/* background: #665; */
+
+      article h2{
+        font-family: 'Kaushan Script', cursive; 
+        font-size: 40px;
+        margin: 20px;
+      }
+      article p img{
+            float: left;
+            margin-right: 20px;            
+      }
+      article p{
+        margin: 5px 20px;           
+        font-size: 14px;
+        text-align: justify;
+      }
+      aside#izq {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        height: 453px;
+        
+      }
+
+     
+     /* <!--los aside izq y der me quedaron trocados. padding: genera espaciado --> */
+
+      aside#der ul li{
+        background: #aaa;
+        padding: 10px; 
+        margin: 2px 10px;
+        list-style: square;
+        list-style-position: inside;
+        list-style-image: url(img/favicon-16x16.png);
+      }
+
+      .link{ 
+        text-decoration: none;
+      }
+    
+      aside#der {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 453px;
+        
+      }
+      /* el sgte aside es del lado derecho, porque se me trocaron*/
+      aside#izq  h1{
+          width: 200px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          background: rgba(100, 0, 255, 1);
+          color: white;
+          margin-bottom: 5px;
+
+      }
+
+      aside#izq input{
+        padding: 10px;
+        margin: 5px 0;
+        width: 176px;
+      }
+      aside#izq input[type="text"] {
+        background: url(favicon-usuario/favicon-32x32.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+      }/* background-size: contain; se ajusta al tamaño del recuadro*/
+     
+
+      aside#izq input[type="password"] {
+        background: url(fav-llave/llave.jpeg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+      }
+
+      aside#izq input[type="submit"] { 
+        width: 200px;
+        background: rgba(100, 0, 100, 5);
+        border: 0;
+        color: white;
+
+      }
+
+      footer {
+        position: relative;
+        margin: 20px auto;
+        width: 1000px;
+        height: 70px;
+        background: #888;
+        text-align: center;
+       color: white;
+       background: rgba(100, 0, 225, 1);
+        
+      }
+      .desarrollado{
+        text-align: center;
+      }

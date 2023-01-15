@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html>
+
+<!--=====================================
+CABEZA DEL DOCUMENTO
+======================================-->
+
+<head>
+
+	<meta charset="utf-8">
+    
+    <meta name="author" content="Tutoriales a tu alcance">
+    
+    <meta name="description" content="Acá se pone la descripción del sitio">
+    
+    <meta name="keywords" content="tutoriales, html, desarrollo web">
+    
+    <title>Estructura de la cabecera</title>
+    
+    <link rel="icon" href="img/icono.png">
+	
+
+</head>
+
+<!--=====================================
+CUERPO DEL DOCUMENTO
+======================================-->
+    
+<body>
+
+    <center>
+        <h3>FORMULARIO</h3>
+        <label for="texto">Entrada texto</label>
+        <form action=""> <input type="text" placeholder="Entrada de texto" value=""> <br>
+
+        
+        <label for="correo">Entrada correo</label>
+        <form action="" id="correo"> <input type="email" placeholder="Entrada de correo" value=""></form> <br>
+
+        
+        <label for="pass">Entrada contraseña</label>
+        <form action="" id="pass"> <input type="password" placeholder="Entrada de contraseña" value=""></form> <br>
+        
+        <input type="number" value="1" min="0" max="4"> <br> <br>
+
+        <select>
+            <option value="">Opción 1</option>
+            <option value="">Opción 2</option>
+            <option value="">Opción 3</option>
+            <option value="">Opción 4</option>
+        </select> <br> <br>
+
+        <input type="checkbox" id="rojo"> <label for="rojo">ROJO</label>
+        <input type="checkbox" id="amarillo"> <label for="amarillo">AMARILLO</label>
+        <input type="checkbox" id="verde"> <label for="verde">VERDE</label> <br><br>
+
+        <input type="radio" id="blanco" name="radio"> <label for="blanco">BLANCO</label>
+        <input type="radio" id="negro" name="radio"> <label for="negro">NEGRO</label>
+        <input type="radio" id="morado" name="radio"> <label for="morado">MORADO</label> <br><br>
+
+        <input type="submit" value="Enviar Formulario">
+
+    </form>
+    </center>
+
+    <header>
+        <div id="logotipo">
+            Logotipo
+        </div>
+        
+    </header>
+    <nav>
+        BARRA DE NAVEGACION
+    </nav>
+    <section>
+        SECCION PRINCIPAL
+    </section>
+    <aside>
+        <div class="noticias">
+            Noticia #1
+        </div>
+        <div class="noticias">
+            Noticia #2
+        </div>
+        <div class="noticias">
+            Noticia #3
+        </div>
+        
+    </aside>
+    <article>
+        ARTICULO
+    </article>
+    <h1> TITULO</h1>
+    <p> ESTE ES UN <b>PARRAFO </b> </p> <br> <p> ESTE ES OTRO <b>PARRAFO </b></p>
+    <hr>
+    <a href="#">Vínculo</a>
+    <figure>
+        <img src="img/imagen.jpg" alt="imagen del sitio">
+    </figure>
+   <figcaption>Pie de página para la imagen</figcaption>
+
+    <ol>
+        <li>Carro</li>
+        <li>Barco</li>
+        <li>Avión</li>
+    </ol>
+    <ul>
+        <li>Carro</li>
+        <li>Barco</li>
+        <li>Avión</li>
+    </ul>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>MES</th>
+                <th>AHORRO</th>
+            </tr>
+        </thead>
+
+        <tbody>       
+            <tr>
+                <td>ENERO</td>
+                <td>$ 200.000</td>
+            </tr>
+            <tr>
+                <td>FEBRERO</td>
+                <td>$ 300.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Resultados del examen</h2>
+    <p>Carlos: <meter value="94" min="0" max="100" high="90"></meter> </p>
+    <p>André: <meter value="60" min="0" max="100" high="90"></meter></p>
+    <p>Ana: <meter value="85" min="0" max="100" high="90"></meter></p>
+    <p>Pedro: <meter value="45" min="0" max="100" high="90"></meter></p>
+
+    <h2>Resultados de las ventas</h2>
+    <p>FEBRERO: <progress value="94" min="0" max="100"></progress></p>
+    <p>MARZO: <progress value="60" min="0" max="100"></progress></p>
+    <p>ABRIL: <progress value="85" min="0" max="100"></progress></p>
+    <p>MAYO: <progress value="45" min="0" max="100"></progress></p>
+
+    <audio controls loop preload="auto">
+        <!-- cuando está en autoplay el audio o video se reproduce automaticamente-->
+        <source src="audio/audio.m4a" type="audio/mp4">
+        <source src="audio/audio.mp3" type="audio/mp3">
+        <source src="audio/audio.ogg" type="audio/ogg">
+    </audio>
+
+    <video width="500" height="200" controls>
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.ogv" type="video/ogv">
+        <source src="video/video.webm" type="video/webm">
+    </video> 
+    <br>
+    <iframe src="https://en.calameo.com/read/00657603445b9f57f7605" width="800" height="600" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n9Z5dpGuThM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63452.23829884401!2d-75.60292367355272!3d6.294597648885735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429739f2122e9%3A0x7097411dc6e57e48!2sCl.+45f+%2382-31%2C+Medell%C3%ADn%2C+Antioquia!5e0!3m2!1sen!2sco!4v1450302000564" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   
+    <footer>
+        Este espacio es para el pie de página
+    </footer>
+</body>
+
+</html>
